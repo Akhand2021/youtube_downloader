@@ -1,0 +1,19 @@
+<!-- Put your HTML content here -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YouTube Video Downloader</h1>
+     <form id="download-form" action="/download" method="post">
+    <label for="url">Enter YouTube Video URL:</label>
+    <input type="text" id="url" required name="url" placeholder="e.g., https://www.youtube.com/watch?v=YourVideoID">
+    <button type="submit" id="download-button">Download</button>
+</form>
+
+        <div id="result-message">{{ result_message }}</div>
+    </div>
+</body>
+</html>
