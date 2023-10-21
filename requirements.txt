@@ -1,1 +1,1 @@
-pip install pytube
+pip install --upgrade pip
